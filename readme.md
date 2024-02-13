@@ -53,19 +53,19 @@ Please put your datasets under the directory `dataset/XXX/`, where ```xxx``` is 
 * For ```Beauty``` dataset, please use the following code:
 
     ```python
-python main.py --dataset beauty --alpha1 0.9 --alpha2 0.1 --order1 8 --order2 8 --pri_factor 370 --n_clusters 3
+    python main.py --dataset beauty --alpha1 0.9 --alpha2 0.1 --order1 8 --order2 8 --pri_factor 370 --n_clusters 3
     ```
 
 * For ```LastFM``` dataset, please use the following code:
 
     ```python
-python main.py --dataset lastfm --alpha1 0.1 --alpha2 0.9 --order1 4 --order2 8 --pri_factor 85 --n_clusters 10
+    python main.py --dataset lastfm --alpha1 0.1 --alpha2 0.9 --order1 4 --order2 8 --pri_factor 85 --n_clusters 10
     ```
 
 * For ```BX``` dataset, please use the following code:
 
     ```python
-python main.py --dataset bx --alpha1 0.3 --alpha2 0.1 --order1 8 --order2 10 --pri_factor 206 --n_clusters 5
+    python main.py --dataset bx --alpha1 0.3 --alpha2 0.1 --order1 8 --order2 10 --pri_factor 206 --n_clusters 5
     ```
 
 * For ```Netflix``` dataset, please use the following code:
